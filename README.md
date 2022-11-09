@@ -19,10 +19,6 @@ Data in [/files](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/fil
 - transcriptions (and corresponding metadata) in [/files/transcriptions](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/transcriptions)
 - metadata schemas in [/files/schemas](https://github.com/RISE-UNIBAS/rheinschifffahrt/tree/master/files/schemas)
 
-## Description of the collection
-
-Todo.
-
 ## Data processing
 
 The main task of data processing was to structure and transcribe the collection.
