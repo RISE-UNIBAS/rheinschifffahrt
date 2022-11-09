@@ -174,3 +174,4 @@ vignettes/*.pdf
 
 # MISC
 .DS_Store
+.idea
