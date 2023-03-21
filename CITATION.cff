@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: RISE-UNIBAS/rheinschifffahrt-showcase
+message: 'If you use this dataset, please cite it as below.'
+type: dataset
+authors:
+  - family-names: Hindermann
+    given-names: Maximilian
+    orcid: 'https://orcid.org/0000-0002-9337-4655'
+  - family-names: Alberto
+    given-names: Anthea
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.7755716
+    description: All versions
+  - type: doi
+    value: 10.5281/zenodo.7755717
+    description: Version 0.3.0
+url: 'https://github.com/RISE-UNIBAS/rheinschifffahrt-showcase'
+abstract: >-
+  Sample data set exemplifying an idealized data processing
+  pipeline in the Social Sciences and Humanities using Tropy
+  to structure and index digitized items; Transkribus to
+  segment and transcribe; Python, R and OpenRefine to
+  extract named entities; Omeka S to present results.
+keywords:
+  - Tropy
+  - Transkribus
+  - Python
+  - R
+  - OpenRefine
+  - Omeka S
+  - data pipeline
+  - named entity recognition
+  - training materials
+  - SSH
+license: CC-BY-4.0
+version: 0.3.1
+date-released: '2023-03-21'
