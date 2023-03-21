@@ -13,6 +13,9 @@ identifiers:
     value: 10.5281/zenodo.7755716
     description: All versions
   - type: doi
+    value: 10.5281/zenodo.7756989
+    description: Version 0.3.1
+  - type: doi
     value: 10.5281/zenodo.7755717
     description: Version 0.3.0
 url: 'https://github.com/RISE-UNIBAS/rheinschifffahrt-showcase'
