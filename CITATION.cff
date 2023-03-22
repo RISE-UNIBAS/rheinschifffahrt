@@ -8,6 +8,7 @@ authors:
     orcid: 'https://orcid.org/0000-0002-9337-4655'
   - family-names: Alberto
     given-names: Anthea
+    orcid: 'https://orcid.org/0009-0007-0430-0050'
 identifiers:
   - type: doi
     value: 10.5281/zenodo.7755716
