@@ -17,6 +17,8 @@
       "@id": "https://tropy.org/v1/tropy#selection",
       "@container": "@list"
     },
+    "coverage": "http://purl.org/dc/elements/1.1/coverage",
+    "creator": "http://purl.org/dc/elements/1.1/creator",
     "date": {
       "@id": "http://purl.org/dc/elements/1.1/date",
       "@type": "https://tropy.org/v1/tropy#date"
@@ -26,24 +28,22 @@
     "source": "http://purl.org/dc/elements/1.1/source",
     "title": "http://purl.org/dc/elements/1.1/title",
     "type": "http://purl.org/dc/elements/1.1/type",
-    "coverage": "http://purl.org/dc/elements/1.1/coverage",
-    "audience": "http://purl.org/dc/terms/audience",
-    "creator": "http://purl.org/dc/elements/1.1/creator"
+    "audience": "http://purl.org/dc/terms/audience"
   },
   "@graph": [
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
       "date": "1926-02-16",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
       "title": "Dokument 01",
       "type": "Correspondence",
-      "coverage": "Basel",
       "audience": "Herrn Christ, i/Fa. Paravicini, Christ & Co., Basel. Kaufhausgasse 7.",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -54,7 +54,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0002.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0002.jpg",
           "protocol": "file",
           "size": 809903,
           "template": "https://tropy.org/v1/templates/photo",
@@ -68,8 +68,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2923,
-          "title": "0002",
-          "date": "2022-02-16T07:04:05.835Z"
+          "date": "2022-02-16T07:04:05.835Z",
+          "title": "0002"
         },
         {
           "@type": "Photo",
@@ -80,7 +80,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0003.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0003.jpg",
           "protocol": "file",
           "size": 836027,
           "template": "https://tropy.org/v1/templates/photo",
@@ -94,8 +94,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2923,
-          "title": "0003",
-          "date": "2022-02-16T07:04:07.686Z"
+          "date": "2022-02-16T07:04:07.686Z",
+          "title": "0003"
         },
         {
           "@type": "Photo",
@@ -106,7 +106,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0004.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0004.jpg",
           "protocol": "file",
           "size": 688860,
           "template": "https://tropy.org/v1/templates/photo",
@@ -120,24 +120,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0004",
-          "date": "2022-02-16T07:04:09.431Z"
+          "date": "2022-02-16T07:04:09.431Z",
+          "title": "0004"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
+      "date": "1926-03-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "date": "1926-03-04",
       "title": "Dokument 02",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
+      "type": "Correspondence",
       "audience": "Herrn P. Christ-Wackernagel, i/Fa. Paravicini, Christ & Co., Basel. Kaufhausgasse 7.",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -148,7 +148,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0005.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0005.jpg",
           "protocol": "file",
           "size": 822602,
           "template": "https://tropy.org/v1/templates/photo",
@@ -162,8 +162,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0005",
-          "date": "2022-02-16T07:04:11.168Z"
+          "date": "2022-02-16T07:04:11.168Z",
+          "title": "0005"
         },
         {
           "@type": "Photo",
@@ -174,7 +174,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0006.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0006.jpg",
           "protocol": "file",
           "size": 788360,
           "template": "https://tropy.org/v1/templates/photo",
@@ -188,8 +188,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0006",
-          "date": "2022-02-16T07:04:12.912Z"
+          "date": "2022-02-16T07:04:12.912Z",
+          "title": "0006"
         },
         {
           "@type": "Photo",
@@ -200,7 +200,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0007.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0007.jpg",
           "protocol": "file",
           "size": 760547,
           "template": "https://tropy.org/v1/templates/photo",
@@ -214,8 +214,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0007",
-          "date": "2022-02-16T07:04:14.643Z"
+          "date": "2022-02-16T07:04:14.643Z",
+          "title": "0007"
         },
         {
           "@type": "Photo",
@@ -226,7 +226,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0008.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0008.jpg",
           "protocol": "file",
           "size": 797203,
           "template": "https://tropy.org/v1/templates/photo",
@@ -240,8 +240,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0008",
-          "date": "2022-02-16T07:04:16.409Z"
+          "date": "2022-02-16T07:04:16.409Z",
+          "title": "0008"
         },
         {
           "@type": "Photo",
@@ -252,7 +252,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0009.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0009.jpg",
           "protocol": "file",
           "size": 765281,
           "template": "https://tropy.org/v1/templates/photo",
@@ -266,24 +266,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0009",
-          "date": "2022-02-16T07:04:18.174Z"
+          "date": "2022-02-16T07:04:18.174Z",
+          "title": "0009"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
+      "date": "1926-03-24",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "date": "1926-03-24",
       "title": "Dokument 03",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5III",
+      "type": "Correspondence",
       "audience": "Herrn P. Christ-Wackernagel, i/Fa. Paravicini, Christ & Co., Basel.",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -294,7 +294,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0010.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0010.jpg",
           "protocol": "file",
           "size": 474342,
           "template": "https://tropy.org/v1/templates/photo",
@@ -308,8 +308,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2882,
-          "title": "0010",
-          "date": "2022-02-16T07:04:19.856Z"
+          "date": "2022-02-16T07:04:19.856Z",
+          "title": "0010"
         },
         {
           "@type": "Photo",
@@ -320,7 +320,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0011.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0011.jpg",
           "protocol": "file",
           "size": 1081830,
           "template": "https://tropy.org/v1/templates/photo",
@@ -334,8 +334,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0011",
-          "date": "2022-02-16T07:04:21.656Z"
+          "date": "2022-02-16T07:04:21.656Z",
+          "title": "0011"
         },
         {
           "@type": "Photo",
@@ -346,7 +346,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0012.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0012.jpg",
           "protocol": "file",
           "size": 953785,
           "template": "https://tropy.org/v1/templates/photo",
@@ -360,24 +360,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0012",
-          "date": "2022-02-16T07:04:23.502Z"
+          "date": "2022-02-16T07:04:23.502Z",
+          "title": "0012"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basel 1926 Internationale Ausstellung für Binnenschiffahrt und Wasserkraftnutzung",
+      "date": "1926-03-26",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "date": "1926-03-26",
       "title": "Dokument 04",
+      "type": "Correspondence",
       "audience": "Herrn Christ, c/o. Paravicini, Christ & Co. Kaufhausgasse 7, Basel",
-      "creator": "Basel 1926 Internationale Ausstellung für Binnenschiffahrt und Wasserkraftnutzung",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -388,7 +388,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0013.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0013.jpg",
           "protocol": "file",
           "size": 748912,
           "template": "https://tropy.org/v1/templates/photo",
@@ -402,24 +402,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2849,
-          "title": "0013",
-          "date": "2022-02-16T07:13:22.286Z"
+          "date": "2022-02-16T07:13:22.286Z",
+          "title": "0013"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[P. Christ-Wackernagel]",
+      "date": "1926-03-29",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 05",
       "type": "Correspondence",
       "audience": "Herr Dr. W. Krasting, Internationale Ausstellung für Binnenschiffahrt und Wasserkraftnutzung Basel 1926",
-      "creator": "[P. Christ-Wackernagel]",
-      "date": "1926-03-29",
-      "title": "Dokument 05",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -430,7 +430,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0014.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0014.jpg",
           "protocol": "file",
           "size": 772007,
           "template": "https://tropy.org/v1/templates/photo",
@@ -444,24 +444,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2906,
-          "title": "0014",
-          "date": "2022-02-16T07:13:35.843Z"
+          "date": "2022-02-16T07:13:35.843Z",
+          "title": "0014"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[P. Christ-Wackernagel]",
+      "date": "1926-03-29",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "date": "1926-03-29",
       "title": "Dokument 06",
-      "creator": "[P. Christ-Wackernagel]",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse, 5III Basel.",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -472,7 +472,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0015.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0015.jpg",
           "protocol": "file",
           "size": 845395,
           "template": "https://tropy.org/v1/templates/photo",
@@ -486,24 +486,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2920,
-          "title": "0015",
-          "date": "2022-02-16T07:13:54.008Z"
+          "date": "2022-02-16T07:13:54.008Z",
+          "title": "0015"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft",
+      "date": "1926-06-22",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 07",
       "type": "Correspondence",
       "audience": "Herr P. Christ-Wackernagel, Basel.",
-      "date": "1926-06-22",
-      "title": "Dokument 07",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -514,7 +514,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0016.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0016.jpg",
           "protocol": "file",
           "size": 380439,
           "template": "https://tropy.org/v1/templates/photo",
@@ -528,8 +528,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2899,
-          "title": "0016",
-          "date": "2022-02-16T07:04:27.238Z"
+          "date": "2022-02-16T07:04:27.238Z",
+          "title": "0016"
         },
         {
           "@type": "Photo",
@@ -540,7 +540,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0017.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0017.jpg",
           "protocol": "file",
           "size": 1001280,
           "template": "https://tropy.org/v1/templates/photo",
@@ -554,8 +554,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2901,
-          "title": "0017",
-          "date": "2022-02-16T07:04:28.188Z"
+          "date": "2022-02-16T07:04:28.188Z",
+          "title": "0017"
         },
         {
           "@type": "Photo",
@@ -566,7 +566,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0018.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0018.jpg",
           "protocol": "file",
           "size": 1032960,
           "template": "https://tropy.org/v1/templates/photo",
@@ -580,8 +580,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0018",
-          "date": "2022-02-16T07:04:29.195Z"
+          "date": "2022-02-16T07:04:29.195Z",
+          "title": "0018"
         },
         {
           "@type": "Photo",
@@ -592,7 +592,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0019.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0019.jpg",
           "protocol": "file",
           "size": 1144899,
           "template": "https://tropy.org/v1/templates/photo",
@@ -606,8 +606,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2899,
-          "title": "0019",
-          "date": "2022-02-16T07:04:30.161Z"
+          "date": "2022-02-16T07:04:30.161Z",
+          "title": "0019"
         },
         {
           "@type": "Photo",
@@ -618,7 +618,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0020.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0020.jpg",
           "protocol": "file",
           "size": 1030512,
           "template": "https://tropy.org/v1/templates/photo",
@@ -632,8 +632,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0020",
-          "date": "2022-02-16T07:04:31.213Z"
+          "date": "2022-02-16T07:04:31.213Z",
+          "title": "0020"
         },
         {
           "@type": "Photo",
@@ -644,7 +644,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0021.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0021.jpg",
           "protocol": "file",
           "size": 1030151,
           "template": "https://tropy.org/v1/templates/photo",
@@ -658,8 +658,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0021",
-          "date": "2022-02-16T07:04:32.146Z"
+          "date": "2022-02-16T07:04:32.146Z",
+          "title": "0021"
         },
         {
           "@type": "Photo",
@@ -670,7 +670,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0022.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0022.jpg",
           "protocol": "file",
           "size": 1053986,
           "template": "https://tropy.org/v1/templates/photo",
@@ -684,8 +684,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0022",
-          "date": "2022-02-16T07:04:33.540Z"
+          "date": "2022-02-16T07:04:33.540Z",
+          "title": "0022"
         },
         {
           "@type": "Photo",
@@ -696,7 +696,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0023.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0023.jpg",
           "protocol": "file",
           "size": 1018827,
           "template": "https://tropy.org/v1/templates/photo",
@@ -710,24 +710,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0023",
-          "date": "2022-02-16T07:04:34.455Z"
+          "date": "2022-02-16T07:04:34.455Z",
+          "title": "0023"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
       "creator": "Basler Personenschiffahrtsgesellschaft Basel",
+      "date": "1926-06-26",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 08",
       "type": "Correspondence",
       "audience": "Geschäftsleitung der Internationalen Ausstellung für Binnenschiffahrt und Wasserkraftnutzung Basel",
-      "date": "1926-06-26",
-      "title": "Dokument 08",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -738,7 +738,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0024.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0024.jpg",
           "protocol": "file",
           "size": 861378,
           "template": "https://tropy.org/v1/templates/photo",
@@ -752,8 +752,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0024",
-          "date": "2022-02-16T07:04:35.444Z"
+          "date": "2022-02-16T07:04:35.444Z",
+          "title": "0024"
         },
         {
           "@type": "Photo",
@@ -764,7 +764,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0025.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0025.jpg",
           "protocol": "file",
           "size": 921726,
           "template": "https://tropy.org/v1/templates/photo",
@@ -778,8 +778,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0025",
-          "date": "2022-02-16T07:04:36.426Z"
+          "date": "2022-02-16T07:04:36.426Z",
+          "title": "0025"
         },
         {
           "@type": "Photo",
@@ -790,7 +790,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0026.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0026.jpg",
           "protocol": "file",
           "size": 913404,
           "template": "https://tropy.org/v1/templates/photo",
@@ -804,8 +804,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0026",
-          "date": "2022-02-16T07:04:37.423Z"
+          "date": "2022-02-16T07:04:37.423Z",
+          "title": "0026"
         },
         {
           "@type": "Photo",
@@ -816,7 +816,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0027.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0027.jpg",
           "protocol": "file",
           "size": 862624,
           "template": "https://tropy.org/v1/templates/photo",
@@ -830,24 +830,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0027",
-          "date": "2022-02-16T07:04:38.646Z"
+          "date": "2022-02-16T07:04:38.646Z",
+          "title": "0027"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. Fritz Steiger Dr. Max Vischer Advokaten und Notare Basel Freiestrasse 65",
+      "date": "1926-06-28",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 09",
       "type": "Correspondence",
       "audience": "P. Christ-Wackernagel, vom Hause Paravicini, Christ & Co., Basel Kaufhausgasse",
-      "creator": "Dr. Fritz Steiger Dr. Max Vischer Advokaten und Notare Basel Freiestrasse 65",
-      "date": "1926-06-28",
-      "title": "Dokument 09",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -858,7 +858,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0028.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0028.jpg",
           "protocol": "file",
           "size": 986543,
           "template": "https://tropy.org/v1/templates/photo",
@@ -872,8 +872,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0028",
-          "date": "2022-02-16T07:04:39.543Z"
+          "date": "2022-02-16T07:04:39.543Z",
+          "title": "0028"
         },
         {
           "@type": "Photo",
@@ -884,7 +884,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0029.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0029.jpg",
           "protocol": "file",
           "size": 871424,
           "template": "https://tropy.org/v1/templates/photo",
@@ -898,24 +898,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0029",
-          "date": "2022-02-16T07:04:40.457Z"
+          "date": "2022-02-16T07:04:40.457Z",
+          "title": "0029"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1926-07-13",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 10",
       "type": "Correspondence",
       "audience": "Elektrizitätswerk, Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
-      "date": "1926-07-13",
-      "title": "Dokument 10",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -926,7 +926,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0030.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0030.jpg",
           "protocol": "file",
           "size": 844557,
           "template": "https://tropy.org/v1/templates/photo",
@@ -940,24 +940,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0030",
-          "date": "2022-02-16T07:15:02.633Z"
+          "date": "2022-02-16T07:15:02.633Z",
+          "title": "0030"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1926-07-14",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
-      "audience": "Redaktion der \"Basler Nachrichten\", Basel.",
-      "date": "1926-07-14",
       "title": "Dokument 11",
-      "coverage": "Basel",
+      "type": "Correspondence",
+      "audience": "Redaktion der \"Basler Nachrichten\", Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -968,7 +968,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0031.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0031.jpg",
           "protocol": "file",
           "size": 846642,
           "template": "https://tropy.org/v1/templates/photo",
@@ -982,24 +982,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2926,
-          "title": "0031",
-          "date": "2022-02-16T07:15:14.231Z"
+          "date": "2022-02-16T07:15:14.231Z",
+          "title": "0031"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1926-08-13",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 12",
       "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Präsident der Basler Personenschiffahrtsgesellschaft Basel",
-      "date": "1926-08-13",
-      "title": "Dokument 12",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1010,7 +1010,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0032.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0032.jpg",
           "protocol": "file",
           "size": 784647,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1024,8 +1024,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0032",
-          "date": "2022-02-16T07:04:43.217Z"
+          "date": "2022-02-16T07:04:43.217Z",
+          "title": "0032"
         },
         {
           "@type": "Photo",
@@ -1036,7 +1036,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0033.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0033.jpg",
           "protocol": "file",
           "size": 820790,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1050,8 +1050,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0033",
-          "date": "2022-02-16T07:04:44.076Z"
+          "date": "2022-02-16T07:04:44.076Z",
+          "title": "0033"
         },
         {
           "@type": "Photo",
@@ -1062,7 +1062,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0034.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0034.jpg",
           "protocol": "file",
           "size": 698003,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1076,24 +1076,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0034",
-          "date": "2022-02-16T07:04:45.018Z"
+          "date": "2022-02-16T07:04:45.018Z",
+          "title": "0034"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1927-09-15",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 13",
       "type": "Correspondence",
       "audience": "Herrn Rupprecht, Hotelier, Soolbad \"Eden\", Rheinfelden.",
-      "date": "1927-09-15",
-      "title": "Dokument 13",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1104,7 +1104,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0035.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0035.jpg",
           "protocol": "file",
           "size": 875523,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1118,8 +1118,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2932,
-          "title": "0035",
-          "date": "2022-02-16T07:04:46.041Z"
+          "date": "2022-02-16T07:04:46.041Z",
+          "title": "0035"
         },
         {
           "@type": "Photo",
@@ -1130,7 +1130,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0036.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0036.jpg",
           "protocol": "file",
           "size": 658144,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1144,24 +1144,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0036",
-          "date": "2022-02-16T07:04:46.933Z"
+          "date": "2022-02-16T07:04:46.933Z",
+          "title": "0036"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1928-02-18",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 14",
       "type": "Correspondence",
       "audience": "Vorstand der Basler Personenschiffahrts-Gesellschaft, Basel.",
-      "date": "1928-02-18",
-      "title": "Dokument 14",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1172,7 +1172,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0037.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0037.jpg",
           "protocol": "file",
           "size": 792051,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1186,8 +1186,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0037",
-          "date": "2022-02-16T07:04:47.843Z"
+          "date": "2022-02-16T07:04:47.843Z",
+          "title": "0037"
         },
         {
           "@type": "Photo",
@@ -1198,7 +1198,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0038.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0038.jpg",
           "protocol": "file",
           "size": 858277,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1212,8 +1212,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0038",
-          "date": "2022-02-16T07:04:48.676Z"
+          "date": "2022-02-16T07:04:48.676Z",
+          "title": "0038"
         },
         {
           "@type": "Photo",
@@ -1224,7 +1224,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0039.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0039.jpg",
           "protocol": "file",
           "size": 789808,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1238,8 +1238,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0039",
-          "date": "2022-02-16T07:04:49.611Z"
+          "date": "2022-02-16T07:04:49.611Z",
+          "title": "0039"
         },
         {
           "@type": "Photo",
@@ -1250,7 +1250,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0040.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0040.jpg",
           "protocol": "file",
           "size": 840017,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1264,8 +1264,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0040",
-          "date": "2022-02-16T07:04:50.510Z"
+          "date": "2022-02-16T07:04:50.510Z",
+          "title": "0040"
         },
         {
           "@type": "Photo",
@@ -1276,7 +1276,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0041.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0041.jpg",
           "protocol": "file",
           "size": 845425,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1290,8 +1290,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0041",
-          "date": "2022-02-16T07:04:51.420Z"
+          "date": "2022-02-16T07:04:51.420Z",
+          "title": "0041"
         },
         {
           "@type": "Photo",
@@ -1302,7 +1302,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0042.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0042.jpg",
           "protocol": "file",
           "size": 843671,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1316,24 +1316,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0042",
-          "date": "2022-02-16T07:04:52.358Z"
+          "date": "2022-02-16T07:04:52.358Z",
+          "title": "0042"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident",
+      "date": "1928-02-23",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 15",
       "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G. Basel Marktgasse 5",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident",
-      "date": "1928-02-23",
-      "title": "Dokument 15",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1344,7 +1344,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0043.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0043.jpg",
           "protocol": "file",
           "size": 752577,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1358,24 +1358,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2914,
-          "title": "0043",
-          "date": "2022-02-16T07:16:17.700Z"
+          "date": "2022-02-16T07:16:17.700Z",
+          "title": "0043"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1928-02-27",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 16",
       "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G., Basel.",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
-      "date": "1928-02-27",
-      "title": "Dokument 16",
-      "coverage": "Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1386,7 +1386,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0044.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0044.jpg",
           "protocol": "file",
           "size": 822424,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1400,24 +1400,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0044",
-          "date": "2022-02-16T07:16:35.647Z"
+          "date": "2022-02-16T07:16:35.647Z",
+          "title": "0044"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
-      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
-      "rights": "Public Domain Mark",
-      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "title": "Dokument 17",
       "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
       "date": "1928-03-01",
+      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
+      "rights": "Public Domain Mark",
+      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 17",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft, Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1428,7 +1428,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0045.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0045.jpg",
           "protocol": "file",
           "size": 815435,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1442,8 +1442,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0045",
-          "date": "2022-02-16T07:04:55.142Z"
+          "date": "2022-02-16T07:04:55.142Z",
+          "title": "0045"
         },
         {
           "@type": "Photo",
@@ -1454,7 +1454,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0046.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0046.jpg",
           "protocol": "file",
           "size": 766868,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1468,24 +1468,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2926,
-          "title": "0046",
-          "date": "2022-02-16T07:04:56.829Z"
+          "date": "2022-02-16T07:04:56.829Z",
+          "title": "0046"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1928-03-12",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 18",
-      "coverage": "Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G., Basel.",
-      "date": "1928-03-12",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1496,7 +1496,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0047.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0047.jpg",
           "protocol": "file",
           "size": 858922,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1510,24 +1510,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0047",
-          "date": "2022-02-16T07:17:07.309Z"
+          "date": "2022-02-16T07:17:07.309Z",
+          "title": "0047"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
-      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
-      "rights": "Public Domain Mark",
-      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "title": "Dokument 19",
       "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
       "date": "1928-03-22",
+      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
+      "rights": "Public Domain Mark",
+      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 19",
+      "type": "Correspondence",
       "audience": "Vorstand der Basler Personenschiffahrtsgesellschaft, Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1538,7 +1538,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0048.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0048.jpg",
           "protocol": "file",
           "size": 819715,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1552,8 +1552,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0048",
-          "date": "2022-02-16T07:04:58.728Z"
+          "date": "2022-02-16T07:04:58.728Z",
+          "title": "0048"
         },
         {
           "@type": "Photo",
@@ -1564,7 +1564,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0049.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0049.jpg",
           "protocol": "file",
           "size": 852673,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1578,8 +1578,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0049",
-          "date": "2022-02-16T07:04:59.643Z"
+          "date": "2022-02-16T07:04:59.643Z",
+          "title": "0049"
         },
         {
           "@type": "Photo",
@@ -1590,7 +1590,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0050.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0050.jpg",
           "protocol": "file",
           "size": 838130,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1604,8 +1604,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0050",
-          "date": "2022-02-16T07:05:00.522Z"
+          "date": "2022-02-16T07:05:00.522Z",
+          "title": "0050"
         },
         {
           "@type": "Photo",
@@ -1616,7 +1616,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0051.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0051.jpg",
           "protocol": "file",
           "size": 774715,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1630,8 +1630,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2920,
-          "title": "0051",
-          "date": "2022-02-16T07:05:01.418Z"
+          "date": "2022-02-16T07:05:01.418Z",
+          "title": "0051"
         },
         {
           "@type": "Photo",
@@ -1642,7 +1642,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0052.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0052.jpg",
           "protocol": "file",
           "size": 698151,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1656,24 +1656,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2895,
-          "title": "0052",
-          "date": "2022-02-16T07:05:02.389Z"
+          "date": "2022-02-16T07:05:02.389Z",
+          "title": "0052"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1928-03-24",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 20",
-      "coverage": "Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G., Basel.",
-      "date": "1928-03-24",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1684,7 +1684,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0053.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0053.jpg",
           "protocol": "file",
           "size": 914747,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1698,8 +1698,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0053",
-          "date": "2022-02-16T07:05:03.319Z"
+          "date": "2022-02-16T07:05:03.319Z",
+          "title": "0053"
         },
         {
           "@type": "Photo",
@@ -1710,7 +1710,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0054.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0054.jpg",
           "protocol": "file",
           "size": 922579,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1724,24 +1724,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2926,
-          "title": "0054",
-          "date": "2022-02-16T07:05:04.254Z"
+          "date": "2022-02-16T07:05:04.254Z",
+          "title": "0054"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1928-03-26",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 21",
-      "coverage": "Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G., Basel.",
-      "date": "1928-03-26",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1752,7 +1752,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0055.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0055.jpg",
           "protocol": "file",
           "size": 807687,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1766,24 +1766,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2926,
-          "title": "0055",
-          "date": "2022-02-16T07:18:09.703Z"
+          "date": "2022-02-16T07:18:09.703Z",
+          "title": "0055"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1928-04-02",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 22",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft, Basel.",
-      "date": "1928-04-02",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1794,7 +1794,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0056.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0056.jpg",
           "protocol": "file",
           "size": 659821,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1808,8 +1808,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0056",
-          "date": "2022-02-16T07:05:06.067Z"
+          "date": "2022-02-16T07:05:06.067Z",
+          "title": "0056"
         },
         {
           "@type": "Photo",
@@ -1820,7 +1820,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0057.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0057.jpg",
           "protocol": "file",
           "size": 624299,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1834,8 +1834,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2894,
-          "title": "0057",
-          "date": "2022-02-16T07:05:06.989Z"
+          "date": "2022-02-16T07:05:06.989Z",
+          "title": "0057"
         },
         {
           "@type": "Photo",
@@ -1846,7 +1846,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0058.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0058.jpg",
           "protocol": "file",
           "size": 950553,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1860,8 +1860,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0058",
-          "date": "2022-02-16T07:05:07.943Z"
+          "date": "2022-02-16T07:05:07.943Z",
+          "title": "0058"
         },
         {
           "@type": "Photo",
@@ -1872,7 +1872,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0059.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0059.jpg",
           "protocol": "file",
           "size": 935220,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1886,8 +1886,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0059",
-          "date": "2022-02-16T07:05:08.935Z"
+          "date": "2022-02-16T07:05:08.935Z",
+          "title": "0059"
         },
         {
           "@type": "Photo",
@@ -1898,7 +1898,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0060.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0060.jpg",
           "protocol": "file",
           "size": 773504,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1912,24 +1912,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0060",
-          "date": "2022-02-16T07:05:09.876Z"
+          "date": "2022-02-16T07:05:09.876Z",
+          "title": "0060"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1928-04-03",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 23",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft, Basel.",
-      "date": "1928-04-03",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -1940,7 +1940,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0061.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0061.jpg",
           "protocol": "file",
           "size": 775844,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1954,8 +1954,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0061",
-          "date": "2022-02-16T07:05:10.851Z"
+          "date": "2022-02-16T07:05:10.851Z",
+          "title": "0061"
         },
         {
           "@type": "Photo",
@@ -1966,7 +1966,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0062.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0062.jpg",
           "protocol": "file",
           "size": 743009,
           "template": "https://tropy.org/v1/templates/photo",
@@ -1980,24 +1980,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0062",
-          "date": "2022-02-16T07:05:11.821Z"
+          "date": "2022-02-16T07:05:11.821Z",
+          "title": "0062"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1928-04-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 24",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
-      "date": "1928-04-04",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2008,7 +2008,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0063.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0063.jpg",
           "protocol": "file",
           "size": 895377,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2022,8 +2022,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0063",
-          "date": "2022-02-16T07:05:12.738Z"
+          "date": "2022-02-16T07:05:12.738Z",
+          "title": "0063"
         },
         {
           "@type": "Photo",
@@ -2034,7 +2034,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0064.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0064.jpg",
           "protocol": "file",
           "size": 886735,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2048,24 +2048,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2915,
-          "title": "0064",
-          "date": "2022-02-16T07:05:13.768Z"
+          "date": "2022-02-16T07:05:13.768Z",
+          "title": "0064"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1928-04-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 25",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft, Basel.",
-      "date": "1928-04-04",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2076,7 +2076,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0065.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0065.jpg",
           "protocol": "file",
           "size": 795445,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2090,8 +2090,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0065",
-          "date": "2022-02-16T07:05:14.721Z"
+          "date": "2022-02-16T07:05:14.721Z",
+          "title": "0065"
         },
         {
           "@type": "Photo",
@@ -2102,7 +2102,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0066.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0066.jpg",
           "protocol": "file",
           "size": 708692,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2116,24 +2116,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0066",
-          "date": "2022-02-16T07:05:15.576Z"
+          "date": "2022-02-16T07:05:15.576Z",
+          "title": "0066"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1928-04-23",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 26",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5.",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
-      "date": "1928-04-23",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2144,7 +2144,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0067.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0067.jpg",
           "protocol": "file",
           "size": 949974,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2158,8 +2158,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0067",
-          "date": "2022-02-16T07:05:16.491Z"
+          "date": "2022-02-16T07:05:16.491Z",
+          "title": "0067"
         },
         {
           "@type": "Photo",
@@ -2170,7 +2170,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0068.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0068.jpg",
           "protocol": "file",
           "size": 864439,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2184,24 +2184,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0068",
-          "date": "2022-02-16T07:05:17.449Z"
+          "date": "2022-02-16T07:05:17.449Z",
+          "title": "0068"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "date": "1928-04-23",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 27",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Herrn Oettinger, Verkehrsbureau, Basel.",
-      "date": "1928-04-23",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2212,7 +2212,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0069.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0069.jpg",
           "protocol": "file",
           "size": 716801,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2226,24 +2226,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0069",
-          "date": "2022-02-16T07:19:44.877Z"
+          "date": "2022-02-16T07:19:44.877Z",
+          "title": "0069"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1928-04-25",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 28",
-      "coverage": "Basel",
-      "date": "1928-04-25",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G. Basel.",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2254,7 +2254,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0070.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0070.jpg",
           "protocol": "file",
           "size": 915434,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2268,8 +2268,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2925,
-          "title": "0070",
-          "date": "2022-02-16T07:05:19.640Z"
+          "date": "2022-02-16T07:05:19.640Z",
+          "title": "0070"
         },
         {
           "@type": "Photo",
@@ -2280,7 +2280,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0071.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0071.jpg",
           "protocol": "file",
           "size": 976366,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2294,8 +2294,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2870,
-          "title": "0071",
-          "date": "2022-02-16T07:05:20.837Z"
+          "date": "2022-02-16T07:05:20.837Z",
+          "title": "0071"
         },
         {
           "@type": "Photo",
@@ -2306,7 +2306,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0072.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0072.jpg",
           "protocol": "file",
           "size": 1084085,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2320,24 +2320,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2840,
-          "title": "0072",
-          "date": "2022-02-16T07:05:21.789Z"
+          "date": "2022-02-16T07:05:21.789Z",
+          "title": "0072"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "date": "1928-04-26",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 29",
-      "coverage": "Basel",
-      "date": "1928-04-26",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Herrn Max Oettinger, Verkehrsbureau, Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2348,7 +2348,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0073.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0073.jpg",
           "protocol": "file",
           "size": 636678,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2362,23 +2362,23 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2923,
-          "title": "0073",
-          "date": "2022-02-16T07:20:18.575Z"
+          "date": "2022-02-16T07:20:18.575Z",
+          "title": "0073"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/generic",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "J. R. F.",
+      "date": "1928-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Article",
       "title": "Dokument 30",
-      "coverage": "Basel",
-      "date": "1928-04",
-      "creator": "J. R. F.",
+      "type": "Article",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2389,7 +2389,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0074.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0074.jpg",
           "protocol": "file",
           "size": 1260352,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2403,8 +2403,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2685,
-          "title": "0074",
-          "date": "2022-02-16T07:05:23.630Z"
+          "date": "2022-02-16T07:05:23.630Z",
+          "title": "0074"
         },
         {
           "@type": "Photo",
@@ -2415,7 +2415,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0075.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0075.jpg",
           "protocol": "file",
           "size": 1340202,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2429,24 +2429,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2686,
-          "title": "0075",
-          "date": "2022-02-16T07:05:24.832Z"
+          "date": "2022-02-16T07:05:24.832Z",
+          "title": "0075"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "date": "1928-05-03",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 31",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Basel. St Albangraben.",
-      "date": "1928-05-03",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2457,7 +2457,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0076.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0076.jpg",
           "protocol": "file",
           "size": 800814,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2471,24 +2471,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0076",
-          "date": "2022-02-16T07:21:26.005Z"
+          "date": "2022-02-16T07:21:26.005Z",
+          "title": "0076"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft",
+      "date": "1928-05-03",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 32",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft",
+      "type": "Correspondence",
       "audience": "Herrn W. Stauffacher, Präsident des Vereins für die Schiffahrt auf dem Oberrhein, Basel.",
-      "date": "1928-05-03",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2499,7 +2499,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0077.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0077.jpg",
           "protocol": "file",
           "size": 687743,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2513,24 +2513,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0077",
-          "date": "2022-02-16T07:21:02.771Z"
+          "date": "2022-02-16T07:21:02.771Z",
+          "title": "0077"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Schriftleiter der Zeitschrift \"Die Rheinquellen\"]",
+      "date": "1928-05-05",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 33",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrts A.-G., Basel.",
-      "date": "1928-05-05",
-      "creator": "[Schriftleiter der Zeitschrift \"Die Rheinquellen\"]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2541,7 +2541,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0078.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0078.jpg",
           "protocol": "file",
           "size": 737216,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2555,24 +2555,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0078",
-          "date": "2022-02-16T07:21:54.928Z"
+          "date": "2022-02-16T07:21:54.928Z",
+          "title": "0078"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "date": "1928-05-10",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 34",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft Basel",
-      "date": "1928-05-10",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2583,7 +2583,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0079.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0079.jpg",
           "protocol": "file",
           "size": 686002,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2597,8 +2597,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0079",
-          "date": "2022-02-16T07:05:28.607Z"
+          "date": "2022-02-16T07:05:28.607Z",
+          "title": "0079"
         },
         {
           "@type": "Photo",
@@ -2609,7 +2609,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0080.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0080.jpg",
           "protocol": "file",
           "size": 693724,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2623,24 +2623,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0080",
-          "date": "2022-02-16T07:05:29.409Z"
+          "date": "2022-02-16T07:05:29.409Z",
+          "title": "0080"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1928-05-11",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 35",
-      "coverage": "Basel",
-      "date": "1928-05-11",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Marktgasse 5 Basel.",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2651,7 +2651,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0081.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0081.jpg",
           "protocol": "file",
           "size": 683631,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2665,24 +2665,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2946,
-          "title": "0081",
-          "date": "2022-02-16T07:22:21.022Z"
+          "date": "2022-02-16T07:22:21.022Z",
+          "title": "0081"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
-      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
-      "rights": "Public Domain Mark",
-      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "title": "Dokument 36",
       "coverage": "Basel",
       "creator": "[Werner Stauffacher]",
       "date": "1928-05-15",
+      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
+      "rights": "Public Domain Mark",
+      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 36",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2693,7 +2693,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0082.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0082.jpg",
           "protocol": "file",
           "size": 735326,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2707,24 +2707,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0082",
-          "date": "2022-02-16T07:22:37.184Z"
+          "date": "2022-02-16T07:22:37.184Z",
+          "title": "0082"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1928-05-24",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 37",
-      "coverage": "Basel",
-      "date": "1928-05-24",
+      "type": "Correspondence",
       "audience": "Herrn Dr. R. Speich Präsident der Basler Rhein-schiffahrt A.-G. Schweiz. Bankverein Basel",
-      "creator": "[Dr. Max Vischer]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2735,7 +2735,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0083.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0083.jpg",
           "protocol": "file",
           "size": 473004,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2749,8 +2749,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2009,
-          "title": "0083",
-          "date": "2022-02-16T07:05:32.152Z"
+          "date": "2022-02-16T07:05:32.152Z",
+          "title": "0083"
         },
         {
           "@type": "Photo",
@@ -2761,7 +2761,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0084.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0084.jpg",
           "protocol": "file",
           "size": 492183,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2775,8 +2775,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 1983,
-          "title": "0084",
-          "date": "2022-02-16T07:05:33.041Z"
+          "date": "2022-02-16T07:05:33.041Z",
+          "title": "0084"
         },
         {
           "@type": "Photo",
@@ -2787,7 +2787,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0085.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0085.jpg",
           "protocol": "file",
           "size": 498888,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2801,8 +2801,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 1956,
-          "title": "0085",
-          "date": "2022-02-16T07:05:33.867Z"
+          "date": "2022-02-16T07:05:33.867Z",
+          "title": "0085"
         },
         {
           "@type": "Photo",
@@ -2813,7 +2813,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0086.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0086.jpg",
           "protocol": "file",
           "size": 305098,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2827,24 +2827,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 1939,
-          "title": "0086",
-          "date": "2022-02-16T07:05:34.734Z"
+          "date": "2022-02-16T07:05:34.734Z",
+          "title": "0086"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1928-05-24",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 38",
-      "coverage": "Basel",
-      "date": "1928-05-24",
+      "type": "Correspondence",
       "audience": "Herrn Direktor Werner Stauffacher Präsident des Vereins für die Schiffahrt auf dem Oberrhein Basel",
-      "creator": "[Dr. Max Vischer]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2855,7 +2855,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0087.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0087.jpg",
           "protocol": "file",
           "size": 865507,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2869,8 +2869,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2919,
-          "title": "0087",
-          "date": "2022-02-16T07:05:35.631Z"
+          "date": "2022-02-16T07:05:35.631Z",
+          "title": "0087"
         },
         {
           "@type": "Photo",
@@ -2881,7 +2881,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0088.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0088.jpg",
           "protocol": "file",
           "size": 763298,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2895,24 +2895,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0088",
-          "date": "2022-02-16T07:05:36.621Z"
+          "date": "2022-02-16T07:05:36.621Z",
+          "title": "0088"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. Rud. Speich Basel",
+      "date": "1928-05-26",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 39",
-      "coverage": "Basel",
-      "creator": "Dr. Rud. Speich Basel",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer St. Albangraben 9 Basel.",
-      "date": "1928-05-26",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2923,7 +2923,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0089.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0089.jpg",
           "protocol": "file",
           "size": 745239,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2937,8 +2937,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2920,
-          "title": "0089",
-          "date": "2022-02-16T07:05:38.454Z"
+          "date": "2022-02-16T07:05:38.454Z",
+          "title": "0089"
         },
         {
           "@type": "Photo",
@@ -2949,7 +2949,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0090.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0090.jpg",
           "protocol": "file",
           "size": 724339,
           "template": "https://tropy.org/v1/templates/photo",
@@ -2963,24 +2963,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0090",
-          "date": "2022-02-16T07:05:39.349Z"
+          "date": "2022-02-16T07:05:39.349Z",
+          "title": "0090"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Werner Stauffacher]",
+      "date": "1928-05-29",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 40",
-      "coverage": "Basel",
-      "date": "1928-05-29",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Albangraben 8, Basel.",
-      "creator": "[Werner Stauffacher]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -2991,7 +2991,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0091.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0091.jpg",
           "protocol": "file",
           "size": 724367,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3005,8 +3005,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2656,
-          "title": "0091",
-          "date": "2022-02-16T07:05:40.288Z"
+          "date": "2022-02-16T07:05:40.288Z",
+          "title": "0091"
         },
         {
           "@type": "Photo",
@@ -3017,7 +3017,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0092.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0092.jpg",
           "protocol": "file",
           "size": 762933,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3031,24 +3031,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2649,
-          "title": "0092",
-          "date": "2022-02-16T07:05:41.138Z"
+          "date": "2022-02-16T07:05:41.138Z",
+          "title": "0092"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1928-05-30",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 41",
-      "coverage": "Basel",
-      "date": "1928-05-30",
-      "creator": "[Dr. Max Vischer]",
+      "type": "Correspondence",
       "audience": "Herrn Direktor W. Stauffacher Präsident des Vereins für die Schiffahrt auf dem Oberrhein Basel Kluserstrasse 25",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3059,7 +3059,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0093.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0093.jpg",
           "protocol": "file",
           "size": 491905,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3073,8 +3073,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 1967,
-          "title": "0093",
-          "date": "2022-02-16T07:05:42.002Z"
+          "date": "2022-02-16T07:05:42.002Z",
+          "title": "0093"
         },
         {
           "@type": "Photo",
@@ -3085,7 +3085,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0094.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0094.jpg",
           "protocol": "file",
           "size": 348445,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3099,24 +3099,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 1961,
-          "title": "0094",
-          "date": "2022-02-16T07:05:42.920Z"
+          "date": "2022-02-16T07:05:42.920Z",
+          "title": "0094"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Werner Stauffacher]",
+      "date": "1928-05-31",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 42",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, St. Albangraben 8, Basel.",
-      "date": "1928-05-31",
-      "creator": "[Werner Stauffacher]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3127,7 +3127,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0095.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0095.jpg",
           "protocol": "file",
           "size": 613848,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3141,24 +3141,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2656,
-          "title": "0095",
-          "date": "2022-02-16T07:24:05.901Z"
+          "date": "2022-02-16T07:24:05.901Z",
+          "title": "0095"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. Adolf Bieder Dr. Hans Burckhardt Dr. Rudolf Leupold Advokatur & Notariat Basel 6 Barfüssergasse 6",
+      "date": "1928-06-19",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 43",
-      "coverage": "Basel",
-      "date": "1928-06-19",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrtsgesellschaft Albangraben 8",
-      "creator": "Dr. Adolf Bieder Dr. Hans Burckhardt Dr. Rudolf Leupold Advokatur & Notariat Basel 6 Barfüssergasse 6",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3169,7 +3169,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0096.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0096.jpg",
           "protocol": "file",
           "size": 674763,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3183,23 +3183,23 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0096",
-          "date": "2022-02-16T07:24:19.349Z"
+          "date": "2022-02-16T07:24:19.349Z",
+          "title": "0096"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/generic",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Die Rheinquellen",
+      "date": "1928-08",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 44",
-      "coverage": "Basel",
-      "date": "1928-08",
-      "creator": "Die Rheinquellen",
+      "type": "Article",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3210,7 +3210,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0097.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0097.jpg",
           "protocol": "file",
           "size": 1254255,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3224,8 +3224,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2660,
-          "title": "0097",
-          "date": "2022-02-16T07:05:45.827Z"
+          "date": "2022-02-16T07:05:45.827Z",
+          "title": "0097"
         },
         {
           "@type": "Photo",
@@ -3236,7 +3236,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0098.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0098.jpg",
           "protocol": "file",
           "size": 1341570,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3250,8 +3250,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2675,
-          "title": "0098",
-          "date": "2022-02-16T07:05:46.653Z"
+          "date": "2022-02-16T07:05:46.653Z",
+          "title": "0098"
         },
         {
           "@type": "Photo",
@@ -3262,7 +3262,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0099.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0099.jpg",
           "protocol": "file",
           "size": 1321398,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3276,24 +3276,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2676,
-          "title": "0099",
-          "date": "2022-02-16T07:05:47.660Z"
+          "date": "2022-02-16T07:05:47.660Z",
+          "title": "0099"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Verein für die Schiffahrt auf dem Oberrhein",
+      "date": "1928-09-28",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 45",
-      "coverage": "Basel",
-      "creator": "Verein für die Schiffahrt auf dem Oberrhein",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Advokat & Notar Basel.",
-      "date": "1928-09-28",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3304,7 +3304,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0100.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0100.jpg",
           "protocol": "file",
           "size": 728350,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3318,24 +3318,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0100",
-          "date": "2022-02-16T07:24:46.680Z"
+          "date": "2022-02-16T07:24:46.680Z",
+          "title": "0100"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1929-05-27",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 46",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "Herrn F. Lützelschwab, z. Adler, Kaiseraugst",
-      "date": "1929-05-27",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3346,7 +3346,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0101.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0101.jpg",
           "protocol": "file",
           "size": 962298,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3360,8 +3360,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0101",
-          "date": "2022-02-16T07:05:49.514Z"
+          "date": "2022-02-16T07:05:49.514Z",
+          "title": "0101"
         },
         {
           "@type": "Photo",
@@ -3372,7 +3372,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0102.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0102.jpg",
           "protocol": "file",
           "size": 778150,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3386,24 +3386,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0102",
-          "date": "2022-02-16T07:05:50.454Z"
+          "date": "2022-02-16T07:05:50.454Z",
+          "title": "0102"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "date": "1929-07-20",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 47",
-      "coverage": "Basel",
-      "date": "1929-07-20",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt A. G. Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3414,7 +3414,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0103.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0103.jpg",
           "protocol": "file",
           "size": 763691,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3428,8 +3428,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2919,
-          "title": "0103",
-          "date": "2022-02-16T07:05:51.468Z"
+          "date": "2022-02-16T07:05:51.468Z",
+          "title": "0103"
         },
         {
           "@type": "Photo",
@@ -3440,7 +3440,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0104.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0104.jpg",
           "protocol": "file",
           "size": 584972,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3454,24 +3454,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0104",
-          "date": "2022-02-16T07:05:52.338Z"
+          "date": "2022-02-16T07:05:52.338Z",
+          "title": "0104"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel",
+      "date": "1932-09-07",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 48",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel",
+      "type": "Correspondence",
       "audience": "Herr Dr. M. Vischer - von Planta Basel Albangraben 8",
-      "date": "1932-09-07",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3482,7 +3482,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0105.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0105.jpg",
           "protocol": "file",
           "size": 822715,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3496,8 +3496,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0105",
-          "date": "2022-02-16T07:05:53.261Z"
+          "date": "2022-02-16T07:05:53.261Z",
+          "title": "0105"
         },
         {
           "@type": "Photo",
@@ -3508,7 +3508,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0106.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0106.jpg",
           "protocol": "file",
           "size": 908625,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3522,8 +3522,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2844,
-          "title": "0106",
-          "date": "2022-02-16T07:05:54.160Z"
+          "date": "2022-02-16T07:05:54.160Z",
+          "title": "0106"
         },
         {
           "@type": "Photo",
@@ -3534,7 +3534,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0107.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0107.jpg",
           "protocol": "file",
           "size": 633542,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3548,8 +3548,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2844,
-          "title": "0107",
-          "date": "2022-02-16T07:05:55.046Z"
+          "date": "2022-02-16T07:05:55.046Z",
+          "title": "0107"
         },
         {
           "@type": "Photo",
@@ -3560,7 +3560,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0108.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0108.jpg",
           "protocol": "file",
           "size": 1069771,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3574,8 +3574,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2963,
-          "title": "0108",
-          "date": "2022-02-16T07:05:56.197Z"
+          "date": "2022-02-16T07:05:56.197Z",
+          "title": "0108"
         },
         {
           "@type": "Photo",
@@ -3586,7 +3586,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0109.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0109.jpg",
           "protocol": "file",
           "size": 1078477,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3600,8 +3600,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2952,
-          "title": "0109",
-          "date": "2022-02-16T07:05:57.118Z"
+          "date": "2022-02-16T07:05:57.118Z",
+          "title": "0109"
         },
         {
           "@type": "Photo",
@@ -3612,7 +3612,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0110.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0110.jpg",
           "protocol": "file",
           "size": 886070,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3626,24 +3626,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2953,
-          "title": "0110",
-          "date": "2022-02-16T07:05:58.141Z"
+          "date": "2022-02-16T07:05:58.141Z",
+          "title": "0110"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1932-09-09",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 49",
-      "coverage": "Basel",
-      "date": "1932-09-09",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Direktion Basel Marktgasse 5",
-      "creator": "[Dr. Max Vischer]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3654,7 +3654,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0111.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0111.jpg",
           "protocol": "file",
           "size": 613465,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3668,24 +3668,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2916,
-          "title": "0111",
-          "date": "2022-02-16T07:25:47.193Z"
+          "date": "2022-02-16T07:25:47.193Z",
+          "title": "0111"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. W. Meile-Welti Missionsstrasse 6 Basel",
+      "date": "1932-09-16",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 50",
-      "coverage": "Basel",
-      "date": "1932-09-16",
-      "creator": "Dr. W. Meile-Welti Missionsstrasse 6 Basel",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer Präs. der Basler Personen-schiffahrtsgesellschaft Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3696,7 +3696,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0112.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0112.jpg",
           "protocol": "file",
           "size": 778426,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3710,8 +3710,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2843,
-          "title": "0112",
-          "date": "2022-02-16T07:06:00.056Z"
+          "date": "2022-02-16T07:06:00.056Z",
+          "title": "0112"
         },
         {
           "@type": "Photo",
@@ -3722,7 +3722,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0113.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0113.jpg",
           "protocol": "file",
           "size": 766175,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3736,24 +3736,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2847,
-          "title": "0113",
-          "date": "2022-02-16T07:06:01.099Z"
+          "date": "2022-02-16T07:06:01.099Z",
+          "title": "0113"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1932-09-23",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 51",
-      "coverage": "Basel",
-      "date": "1932-09-23",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Direktion Basel Marktgasse 5.",
-      "creator": "[Dr. Max Vischer]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3764,7 +3764,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0114.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0114.jpg",
           "protocol": "file",
           "size": 799103,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3778,24 +3778,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2918,
-          "title": "0114",
-          "date": "2022-02-16T07:26:15.160Z"
+          "date": "2022-02-16T07:26:15.160Z",
+          "title": "0114"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "date": "1932-10-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 52",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Advokat & Notar, Basel. St. Albangraben 8.",
-      "date": "1932-10-04",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3806,7 +3806,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0115.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0115.jpg",
           "protocol": "file",
           "size": 780679,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3820,8 +3820,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2842,
-          "title": "0115",
-          "date": "2022-02-16T07:06:03.309Z"
+          "date": "2022-02-16T07:06:03.309Z",
+          "title": "0115"
         },
         {
           "@type": "Photo",
@@ -3832,7 +3832,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0116.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0116.jpg",
           "protocol": "file",
           "size": 788389,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3846,8 +3846,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2840,
-          "title": "0116",
-          "date": "2022-02-16T07:06:04.200Z"
+          "date": "2022-02-16T07:06:04.200Z",
+          "title": "0116"
         },
         {
           "@type": "Photo",
@@ -3858,7 +3858,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0117.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0117.jpg",
           "protocol": "file",
           "size": 660069,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3872,24 +3872,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2836,
-          "title": "0117",
-          "date": "2022-02-16T07:06:05.150Z"
+          "date": "2022-02-16T07:06:05.150Z",
+          "title": "0117"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "date": "1932-10-07",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 53",
-      "coverage": "Basel",
-      "date": "1932-10-07",
+      "type": "Correspondence",
       "audience": "Vorstandsmitglieder der Basler Personenschiffahrts-gesellschaft Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3900,7 +3900,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0118.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0118.jpg",
           "protocol": "file",
           "size": 855662,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3914,24 +3914,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2923,
-          "title": "0118",
-          "date": "2022-02-16T07:26:38.921Z"
+          "date": "2022-02-16T07:26:38.921Z",
+          "title": "0118"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. W. Meile",
+      "date": "1932-10-08",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 54",
-      "coverage": "Basel",
-      "date": "1932-10-08",
-      "creator": "Dr. W. Meile",
+      "type": "Correspondence",
       "audience": "[Basler Personenschiffahrtsgesellschaft]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3942,7 +3942,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0119.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0119.jpg",
           "protocol": "file",
           "size": 646177,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3956,24 +3956,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0119",
-          "date": "2022-02-16T07:26:53.838Z"
+          "date": "2022-02-16T07:26:53.838Z",
+          "title": "0119"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Verein für die Schiffahrt auf dem Oberrhein",
+      "date": "1932-10-10",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 55",
-      "coverage": "Basel",
-      "date": "1932-10-10",
-      "creator": "Verein für die Schiffahrt auf dem Oberrhein",
+      "type": "Correspondence",
       "audience": "Herrn Präsidenten der Basler Personenschiffahrtsgesellschaft Herrn Dr. Max Vischer, Advokat Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -3984,7 +3984,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0120.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0120.jpg",
           "protocol": "file",
           "size": 717579,
           "template": "https://tropy.org/v1/templates/photo",
@@ -3998,24 +3998,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0120",
-          "date": "2022-02-16T07:27:36.885Z"
+          "date": "2022-02-16T07:27:36.885Z",
+          "title": "0120"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "buess",
+      "date": "1932-10-15",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 56",
-      "coverage": "Basel",
+      "type": "Correspondence",
       "audience": "basler personenschiffahrt aeschenvorstadt 34 basel",
-      "creator": "buess",
-      "date": "1932-10-15",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4026,7 +4026,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0121.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0121.jpg",
           "protocol": "file",
           "size": 467496,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4040,24 +4040,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2732,
-          "title": "0121",
-          "date": "2022-02-16T07:27:48.296Z"
+          "date": "2022-02-16T07:27:48.296Z",
+          "title": "0121"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "date": "1932-10-15",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 57",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer, Advokat, Präsident der Personenschiffahrtsgesellschaft, Basel.",
-      "date": "1932-10-15",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4068,7 +4068,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0122.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0122.jpg",
           "protocol": "file",
           "size": 783092,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4082,8 +4082,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0122",
-          "date": "2022-02-16T07:06:09.980Z"
+          "date": "2022-02-16T07:06:09.980Z",
+          "title": "0122"
         },
         {
           "@type": "Photo",
@@ -4094,7 +4094,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0123.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0123.jpg",
           "protocol": "file",
           "size": 738955,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4108,24 +4108,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0123",
-          "date": "2022-02-16T07:06:10.898Z"
+          "date": "2022-02-16T07:06:10.898Z",
+          "title": "0123"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Dr. Max Vischer Dr. P. C. von Plant Advokaten und Notare Basel St. Albangraben 8",
+      "date": "1932-11-24",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 58",
-      "coverage": "Basel",
-      "date": "1932-11-24",
+      "type": "Correspondence",
       "audience": "Herrn A. Oettinger Aeschenvorstadt 34 Basel",
-      "creator": "Dr. Max Vischer Dr. P. C. von Plant Advokaten und Notare Basel St. Albangraben 8",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4136,7 +4136,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0124.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0124.jpg",
           "protocol": "file",
           "size": 455194,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4150,24 +4150,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2817,
-          "title": "0124",
-          "date": "2022-02-16T07:28:11.987Z"
+          "date": "2022-02-16T07:28:11.987Z",
+          "title": "0124"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "date": "1932-12-16",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 59",
-      "coverage": "Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Präsident Der Geschäftsführer",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt A.-G.- Marktgasse 5 Basel",
-      "date": "1932-12-16",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4178,7 +4178,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0125.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0125.jpg",
           "protocol": "file",
           "size": 862299,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4192,24 +4192,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2922,
-          "title": "0125",
-          "date": "2022-02-16T07:28:23.109Z"
+          "date": "2022-02-16T07:28:23.109Z",
+          "title": "0125"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Direktion",
+      "date": "1932-12-19",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 60",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Direktion",
+      "type": "Correspondence",
       "audience": "Herr Dr. M. Vischer - von Planta Advokat & Notar Basel",
-      "date": "1932-12-19",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4220,7 +4220,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0126.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0126.jpg",
           "protocol": "file",
           "size": 777001,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4234,24 +4234,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2846,
-          "title": "0126",
-          "date": "2022-02-16T07:28:34.702Z"
+          "date": "2022-02-16T07:28:34.702Z",
+          "title": "0126"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "[Dr. Max Vischer]",
+      "date": "1932-12-21",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 61",
-      "coverage": "Basel",
-      "date": "1932-12-21",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt-Aktiengesellschaft Basel Marktgasse 5.",
-      "creator": "[Dr. Max Vischer]",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4262,7 +4262,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0127.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0127.jpg",
           "protocol": "file",
           "size": 634897,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4276,24 +4276,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2920,
-          "title": "0127",
-          "date": "2022-02-16T07:28:45.656Z"
+          "date": "2022-02-16T07:28:45.656Z",
+          "title": "0127"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "date": "1933-07-04",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 62",
-      "coverage": "Basel",
-      "date": "1933-07-04",
-      "creator": "Basler Personenschiffahrtsgesellschaft",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt A.-G. Marktgasse 5 Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4304,7 +4304,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0128.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0128.jpg",
           "protocol": "file",
           "size": 859404,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4318,8 +4318,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0128",
-          "date": "2022-02-16T07:06:15.373Z"
+          "date": "2022-02-16T07:06:15.373Z",
+          "title": "0128"
         },
         {
           "@type": "Photo",
@@ -4330,7 +4330,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0129.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0129.jpg",
           "protocol": "file",
           "size": 844327,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4344,24 +4344,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2923,
-          "title": "0129",
-          "date": "2022-02-16T07:06:16.309Z"
+          "date": "2022-02-16T07:06:16.309Z",
+          "title": "0129"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
-      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
-      "rights": "Public Domain Mark",
-      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "title": "Dokument 63",
       "coverage": "Basel",
       "creator": "Basler Personenschiffahrtsgesellschaft",
       "date": "1933-08-15",
+      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
+      "rights": "Public Domain Mark",
+      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 63",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt A.-G.- Marktgasse 5 Basel",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4372,7 +4372,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0130.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0130.jpg",
           "protocol": "file",
           "size": 827098,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4386,24 +4386,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2920,
-          "title": "0130",
-          "date": "2022-02-16T07:29:07.633Z"
+          "date": "2022-02-16T07:29:07.633Z",
+          "title": "0130"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt Aktiengesellschaft",
+      "date": "1935-08-16",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 64",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt Aktiengesellschaft",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrts-Gesellschaft, Basel.",
-      "date": "1935-08-16",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4414,7 +4414,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0131.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0131.jpg",
           "protocol": "file",
           "size": 888563,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4428,24 +4428,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0131",
-          "date": "2022-02-16T07:29:19.120Z"
+          "date": "2022-02-16T07:29:19.120Z",
+          "title": "0131"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "date": "1935-08-17",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 65",
-      "coverage": "Basel",
-      "creator": "Basler Personenschiffahrtsgesellschaft Der Geschäftsführer",
+      "type": "Correspondence",
       "audience": "Herrn Fritz Ritter Basler Rheinschiffahrt A.- G.- Basel 19",
-      "date": "1935-08-17",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4456,7 +4456,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0132.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0132.jpg",
           "protocol": "file",
           "size": 930262,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4470,24 +4470,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2921,
-          "title": "0132",
-          "date": "2022-02-16T07:29:30.004Z"
+          "date": "2022-02-16T07:29:30.004Z",
+          "title": "0132"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Rheinschiffahrt Aktiengesellschaft",
+      "date": "1935-08-21",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 66",
-      "coverage": "Basel",
-      "creator": "Basler Rheinschiffahrt Aktiengesellschaft",
+      "type": "Correspondence",
       "audience": "Basler Personenschiffahrts-Gesellschaft, z.H. des Herrn Oettinger, Basel.",
-      "date": "1935-08-21",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4498,7 +4498,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0133.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0133.jpg",
           "protocol": "file",
           "size": 972501,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4512,8 +4512,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0133",
-          "date": "2022-02-16T07:06:20.305Z"
+          "date": "2022-02-16T07:06:20.305Z",
+          "title": "0133"
         },
         {
           "@type": "Photo",
@@ -4524,7 +4524,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0134.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0134.jpg",
           "protocol": "file",
           "size": 833920,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4538,8 +4538,8 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0134",
-          "date": "2022-02-16T07:06:21.418Z"
+          "date": "2022-02-16T07:06:21.418Z",
+          "title": "0134"
         },
         {
           "@type": "Photo",
@@ -4550,7 +4550,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0135.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0135.jpg",
           "protocol": "file",
           "size": 729893,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4564,24 +4564,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0135",
-          "date": "2022-02-16T07:06:22.418Z"
+          "date": "2022-02-16T07:06:22.418Z",
+          "title": "0135"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
-      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
-      "rights": "Public Domain Mark",
-      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
-      "title": "Dokument 67",
       "coverage": "Basel",
       "creator": "Basler Rheinschiffahrt Aktiengesellschaft Basel 19 / Postfach 4",
       "date": "1937-06-15",
+      "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
+      "rights": "Public Domain Mark",
+      "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
+      "title": "Dokument 67",
+      "type": "Correspondence",
       "audience": "Herrn Dr. Max Vischer Advokat St. Albangraben 8 Basel.",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4592,7 +4592,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0136.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0136.jpg",
           "protocol": "file",
           "size": 707554,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4606,24 +4606,24 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2845,
-          "title": "0136",
-          "date": "2022-02-16T07:29:54.631Z"
+          "date": "2022-02-16T07:29:54.631Z",
+          "title": "0136"
         }
       ]
     },
     {
       "@type": "Item",
       "template": "https://tropy.org/v1/templates/correspondence",
-      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
+      "coverage": "Basel",
+      "creator": "Basler Personen-schiffahrt",
+      "date": "1937-06-18",
       "identifier": "https://doi.org/10.7891/e-manuscripta-54917",
       "rights": "Public Domain Mark",
       "source": "Schweizerisches Wirtschaftsarchiv, CH SWA HS 191 V 10",
-      "type": "Correspondence",
       "title": "Dokument 68",
-      "coverage": "Basel",
-      "creator": "Basler Personen-schiffahrt",
+      "type": "Correspondence",
       "audience": "Basler Rheinschiffahrt Aktiengesellschaft Postfach 4 Basel. 19",
-      "date": "1937-06-18",
+      "collection": "Basler Rheinschifffahrt-Aktiengesellschaft, insbesondere über die Veräusserung des Dieselmotorbootes \"Rheinfelden\" und die Gewährung eines Darlehens zur [...]. 1926-1937",
       "photo": [
         {
           "@type": "Photo",
@@ -4634,7 +4634,7 @@
           "mimetype": "image/jpeg",
           "orientation": 1,
           "page": 0,
-          "path": "C:\\Users\\hinder0000\\PycharmProjects\\rheinschifffahrt\\files\\images\\0137.jpg",
+          "path": "C:\\Users\\PycharmProjects\\rheinschifffahrt-showcase\\files\\images\\0137.jpg",
           "protocol": "file",
           "size": 765822,
           "template": "https://tropy.org/v1/templates/photo",
@@ -4648,11 +4648,11 @@
           "saturation": 0,
           "sharpen": 0,
           "width": 2924,
-          "title": "0137",
-          "date": "2022-02-16T07:30:04.252Z"
+          "date": "2022-02-16T07:30:04.252Z",
+          "title": "0137"
         }
       ]
     }
   ],
-  "version": "1.12.0"
+  "version": "1.16.2"
 }
